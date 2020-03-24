@@ -13,7 +13,9 @@ tags: [照片, 同学]
 
 <img width="65" height="75" src="https://raw.githubusercontent.com/mzlogin/mzlogin.github.io/master/images/posts/markdown/demo.png">
 
+<div>
 ![wangchen2](/img/wangchen2.jpg)
+</div>
 
 ## 王翰文
 
