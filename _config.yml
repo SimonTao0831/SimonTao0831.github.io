@@ -23,7 +23,7 @@ description: 一个萌新创建的简单网站
 navbar-links:
   关于我: "aboutme"
   资源:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+    - 谷歌翻译: "https://translate.google.cn/"
     - 网页基本知识学习: "http://www.markdowntutorial.com/"
   我的推特: "https://twitter.com/ximengtao"
 
