@@ -1,16 +1,21 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: 关于我
+subtitle: 机械狗，电子爱好者，编程爱好者
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+我叫陶檄蒙，我有以下特征：
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+- 是一名机械专业的大学生
+- 对计算机也很感兴趣
+- 居住在中国
+- 在学习德语
+- 喜好animation
 
-What else do you need?
+联系我？
+- E-mail: ximengtaox@gmail.com
+- QQ: 3306543459
 
-### my history
+### 我的历史
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+年轻的我没有什么历史而言, 你可以参观[我的QQ空间](https://user.qzone.qq.com/3306543459/infocenter),当然你需要先加我为好友，虽然也并没有什么东西
