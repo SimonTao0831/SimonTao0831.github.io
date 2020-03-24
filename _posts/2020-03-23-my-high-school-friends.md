@@ -9,10 +9,10 @@ tags: [照片, 同学]
 
 ## 王晨
 
-<img src="https://img-blog.csdn.net/20180806110725729?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xldmlvcGt1/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" width = "100" height = "100">
 ![wangchen1](/img/wangchen1.webp)
-<img width="65" height="75" src="https://raw.githubusercontent.com/mzlogin/mzlogin.github.io/master/images/posts/markdown/demo.png"/>
+
 <img width="65" height="75" src="https://raw.githubusercontent.com/mzlogin/mzlogin.github.io/master/images/posts/markdown/demo.png">
+
 ![wangchen2](/img/wangchen2.jpg)
 
 ## 王翰文
