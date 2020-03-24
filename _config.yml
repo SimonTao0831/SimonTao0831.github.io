@@ -19,6 +19,7 @@ description: 一个萌新创建的简单网站
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
+# 导航栏中的链接列表
 navbar-links:
   About Me: "aboutme"
   Resources:
