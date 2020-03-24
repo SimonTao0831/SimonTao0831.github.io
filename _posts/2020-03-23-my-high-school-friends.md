@@ -7,11 +7,11 @@ tags: [照片, 同学]
 
 高中同学
 
-王晨
+## 王晨
 
 ![wangchen1](/img/wangchen1.webp)
 ![wangchen2](/img/wangchen2.jpg)
 
-王翰文
+## 王翰文
 
 ![wanghanwen1](/img/wanghanwen1.webp)
