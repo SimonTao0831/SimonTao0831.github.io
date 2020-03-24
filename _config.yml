@@ -20,7 +20,7 @@ description: 一个萌新创建的简单网站
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "About Me"
+  About Me: "aboutme"
   Resources:
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     - Learn markdown: "http://www.markdowntutorial.com/"
