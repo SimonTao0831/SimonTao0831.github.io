@@ -12,7 +12,7 @@ tags: [照片, 同学]
 ![wangchen1](/img/wangchen1.webp)
 
 <img width="65" height="75" src="https://raw.githubusercontent.com/mzlogin/mzlogin.github.io/master/images/posts/markdown/demo.png">
-<div align = "center"><img width="65" height="75" src="https://raw.githubusercontent.com/mzlogin/mzlogin.github.io/master/images/posts/markdown/demo.png"></div>
+<div align = "center"><img width="65" height="75" src="/img/wangchen2.jpg"></div>
 
 <div align = "center"><![wangchen2](/img/wangchen2.jpg)></div>
 
