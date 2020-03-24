@@ -1,7 +1,7 @@
 # --- General options --- #
 # 大体布局文件
 # Name of website
-title: ST
+title: 我の学习
 
 # Short description of your site
 description: 一个萌新创建的简单网站
@@ -67,12 +67,16 @@ author:
 # Uncomment the links you want to show in the footer and add your information to each link.
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
+# 选择活动的社交网络链接。
+# 取消注释要在页脚中显示的链接，并将您的信息添加到每个链接。
+# 您可以重新排序项目以定义链接顺序。
+# 如果要添加不在此处的新链接，则还需要编辑_data / SocialNetworks.yml文件
 social-network-links:
   rss: true
   email: "ximengtaox@gmail.com"
   facebook: deanattali
   github: daattali
-  twitter: daattali
+  twitter: https://twitter.com/ximengtao
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
