@@ -8,7 +8,10 @@ tags: [照片, 同学]
 高中同学
 
 王晨
-![wangchen](/img/wangchen1.webp)
+
+![wangchen1](/img/wangchen1.webp)
+![wangchen2](/img/wangchen2.jpg)
 
 王翰文
-![wanghanwen](/img/wanghanwen1.webp)
+
+![wanghanwen1](/img/wanghanwen1.webp)
