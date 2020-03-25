@@ -1,7 +1,7 @@
 # --- General options --- #
 # 大体布局文件
 # Name of website
-title: 我の学习
+title: 檄蒙的学习
 
 # Short description of your site
 description: 一个萌新创建的简单网站
@@ -161,7 +161,7 @@ date_format: "%B %-d, %Y"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
+timezone: "China/Shanghai"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
