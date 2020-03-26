@@ -108,10 +108,10 @@ url-pretty: "为学习而建的网站"  # eg. "deanattali.com/beautiful-jekyll"
 
 # Fill in your Google Analytics ID to track your website using GA
 # 填写您的Google Analytics（分析）ID，以使用GA跟踪您的网站
-google_analytics: "161927451"
+google_analytics: "UA-161927451-1"
 
 # Google Tag Manager ID
-gtm: "6000823112"
+gtm: "GTM-N78KLDW"
 
 # Matomo (aka Piwik) Web statistics
 # Uncomment the following section to enable Matomo. The opt-out parameter controls
