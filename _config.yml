@@ -107,14 +107,18 @@ url-pretty: "为学习而建的网站"  # eg. "deanattali.com/beautiful-jekyll"
 #gtag: ""
 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+# 填写您的Google Analytics（分析）ID，以使用GA跟踪您的网站
+google_analytics: "161927451"
 
 # Google Tag Manager ID
-#gtm: ""
+gtm: "6000823112"
 
 # Matomo (aka Piwik) Web statistics
 # Uncomment the following section to enable Matomo. The opt-out parameter controls
 # whether or not you want to allow users to opt out of tracking.
+# atomo（aka Piwik）网站统计
+# 取消注释以下部分以启用Matomo。 退出参数控制
+# 是否要允许用户选择退出跟踪。
 
 #matomo:
 #  site_id: "9"
