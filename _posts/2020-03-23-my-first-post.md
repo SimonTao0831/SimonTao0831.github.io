@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 王淦小朋友看这里
+title: 第一次尝试
 image: /img/wanggan.jpg
 ---
 
-第一次尝试一下，王淦foolish，hhhhhhhhhhhhhh
+第一次尝试一下
