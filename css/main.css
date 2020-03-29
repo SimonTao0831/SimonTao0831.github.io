@@ -16,7 +16,6 @@ body {
   /* {% if site.page-img %} */
   /* background-image: url({{ site.page-img | relative_url }}); */
   background-image: url(blue-snow.png);
-  background-repeat: repeat;
   background-attachment: fixed;
   background-size: cover;
   /* {% endif %} */
