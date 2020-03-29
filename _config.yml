@@ -61,8 +61,8 @@ footer-link-col: "#404040"
 # 代替颜色
 
  navbar-img: "../img/bgimage.png"
- footer-img: "../img/blue-snow.png"
- page-img: "../img/blue-snow.png"
+ footer-img: "/img/blue-snow.png"
+ page-img: "/img/blue-snow.png"
 
 # --- Footer options --- #
 
