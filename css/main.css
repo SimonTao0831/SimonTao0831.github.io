@@ -7,10 +7,11 @@ layout: null
 /* --- General --- */
 
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
+  /* 字体设置 */
+  /* font-family: 'Lora', 'Times New Roman', serif;
   font-size: 18px;
-  /* color: #404040; */
-  position: relative;
+  color: #404040;
+  position: relative; */
   /* background-color:  {{site.page-col }}; */
   /* {% if site.page-img %} */
   /* background-image: url({{ site.page-img | relative_url }}); */
