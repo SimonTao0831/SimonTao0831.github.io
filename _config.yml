@@ -38,7 +38,7 @@ avatar: "/img/cup.jpg"
 # then specify the following parameter
 # 如果您想在左上角使用图片徽标而不是标题文字，
 # 然后指定以下参数
- title-img: "/img/cup.jpg"
+title-img: "/img/cup.jpg"
 
 # --- Background colour/image options --- #
 
