@@ -6,12 +6,24 @@
 # https://{STATICMAN API INSTANCE}/v3/encrypt/{TEXT TO BE ENCRYPTED}
 # {STATICMAN API INSTANCE} should match the `endpoint` in the theme config
 # file. It defaults to "staticman3.herokuapp.com".
+# 属性名称。 您可以完全拥有多个属性
+# 为网站的不同部分提供不同的配置块。
+# 例如，您可以拥有一个属性来处理评论提交和
+# 另一个人来处理帖子。
+# 要加密字符串，请使用以下端点：
+# https：// {STATICMAN API实例} / v3 / encrypt / {要加密的文本}
+# {STATICMAN API INSTANCE}应该与主题配置中的`endpoint`相匹配
+# 个文件。 默认为“ staticman3.herokuapp.com”。
 
 comments:
   # (*) REQUIRED
   #
   # Names of the fields the form is allowed to submit. If a field that is
   # not here is part of the request, an error will be thrown.
+  #（*）必填
+  #
+  # 允许提交表单的字段名称。 如果一个字段是
+  # 这里不是请求的一部分，将引发错误。
   allowedFields: ["name", "email", "url", "message"]
 
   # (*) REQUIRED WHEN USING NOTIFICATIONS
@@ -25,6 +37,18 @@ comments:
   #
   # Name of the branch being used. Must match the `branch` in the theme config
   # file.
+
+  #（*）使用通知时必填
+  #
+  # 定义了allowedOrigins时，仅从其中一个域发送的请求
+  # 列出的＃个将被接受。 原点作为“选项”对象的一部分发送
+  # （例如<input name =“ options [origin]” value =“ http://yourdomain.com/post1”）
+  # allowedOrigins：[“ https://example.com”]
+
+  # （*）必填
+  #
+  # 使用的分支名称。 必须与主题配置中的“分支”匹配
+  #个文件。
   branch: "master"   #  use "master" for user page or "gh-pages" for project pages
 
   commitMessage: "New comment by {fields.name}"

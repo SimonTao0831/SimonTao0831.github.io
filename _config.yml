@@ -22,6 +22,7 @@ description: 一个萌新创建的简单网站
 # 导航栏中的链接列表
 navbar-links:
   关于我: "aboutme"
+  我的收藏: "myfavorite"
   资源:
     - 谷歌翻译: "https://translate.google.cn/"
     - 网页基本知识学习: "http://www.markdowntutorial.com/"
@@ -29,15 +30,20 @@ navbar-links:
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
+# 要显示在导航栏中的图像-图像必须为正方形（宽度=高度）
+# 如果您不希望在导航栏中显示图像，请删除此参数
 avatar: "/img/cup.jpg"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
+# 如果您想在左上角使用图片徽标而不是标题文字，
+# 然后指定以下参数
 # title-img: /path/to/image
 
 # --- Background colour/image options --- #
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
+# 个性化您网站上的颜色。 颜色值可以是任何有效的CSS颜色
 
 navbar-col: "#F5F5F5"
 navbar-text-col: "#404040"
@@ -51,6 +57,8 @@ footer-link-col: "#404040"
 
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
+# 另外，可以将导航栏，页脚和页面背景设置为使用背景图像
+# 代替颜色
 
 # navbar-img: "/img/bgimage.png"
 # footer-img: "/img/bgimage.png"
@@ -153,13 +161,18 @@ staticman:
 
 # Excerpt Word Length
 # Truncates the excerpt to the specified number of words on the index page
+# 摘录字长
+# 将摘录截断为索引页面上指定的单词数
 excerpt_length: 50
 
 # Character used to separate site title and description in HTML document title
 # and RSS feed title
+# 用于分隔网站标题和HTML文档标题中的描述的字符
+# 和RSS feed标题
 title-separator: "-"
 
 # Ruby Date Format
+# Ruby日期格式
 date_format: "%B %-d, %Y"
 
 # --- Don't need to touch anything below here (but you can if you want) --- #

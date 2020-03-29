@@ -4,6 +4,10 @@ This file lists all non-trivial changes to Beautiful Jekyll.
 
 I often make small changes to documentation, to the demo site, or to the general look-and-feel. These changes will not be listed here. Any other minor changes will also not be listed here.
 
+此文件列出了对Beautiful Jekyll的所有重要更改。
+
+我经常对文档，演示站点或一般外观进行一些小的更改。 这些更改将不在此处列出。 任何其他较小的更改也不会在此处列出。
+
 **2020-03-23** Remove just-comments as it's getting killed at the end of the year
 
 **2020-03-16** Upgrade font-awesome to 5.12.1 (#587) (thanks @cketti)
