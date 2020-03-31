@@ -10,7 +10,7 @@ tags: [GitHub Pages]
 
 今天登录谷歌邮箱看了一眼，发现Github给我发了n多邮件，原来之前的网页一直构建失败了，难怪背景没有更换。
 
-
+---
 邮件内容如下：
 ---
 The page build failed for the `master` branch with the following error:
@@ -31,7 +31,6 @@ https://support.github.com/contact/pages?repo_id=249618713&page_build_id=1713620
 有关对Jekyll进行故障排除的信息，请参阅：https : //help.github.com/articl es / troubleshooting-jekyll- builds
 
 如果您有任何疑问，可以在https://support.github.com的Contact GitHub页面上提交请求。/ con tact / pages？repo_id = 249618713＆page_build_id = 171362097
----
 
 我是第四行开始进行变量赋值的，而它便从第四行开始报错，一开始我以为第四行有误，可无论如何发现不了错误，我尝试注释第四行，便从第六行也就是下一个变量赋值处开始报错，
 一时间我怀疑我整个文件都有错误。
