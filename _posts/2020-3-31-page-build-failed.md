@@ -12,7 +12,7 @@ tags: [GitHub Pages]
 
 邮件内容如下：
 
-
+***
 The page build failed for the `master` branch with the following error:
 
 You have an error on line 4 of your `_config.yml` file. For more information, see
@@ -23,6 +23,7 @@ For information on troubleshooting Jekyll see: https://help.github.com/articles/
 If you have any questions you can submit a request on the Contact GitHub page at
 https://support.github.com/contact/pages?repo_id=249618713&page_build_id=171362097
 
+***
 该`master`分支的页面构建失败，并出现以下错误：
 
 您的`_config.yml`文件的第4行出现错误。有关更多信息，请参见https://help.github.com/en/git hub / working-with-github-pages /
@@ -31,6 +32,8 @@ https://support.github.com/contact/pages?repo_id=249618713&page_build_id=1713620
 有关对Jekyll进行故障排除的信息，请参阅：https : //help.github.com/articl es / troubleshooting-jekyll- builds
 
 如果您有任何疑问，可以在https://support.github.com的Contact GitHub页面上提交请求。/ con tact / pages？repo_id = 249618713＆page_build_id = 171362097
+
+***
 
 我是第四行开始进行变量赋值的，而它便从第四行开始报错，一开始我以为第四行有误，可无论如何发现不了错误，我尝试注释第四行，便从第六行也就是下一个变量赋值处开始报错，
 一时间我怀疑我整个文件都有错误。
