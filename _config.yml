@@ -40,7 +40,7 @@ navbar-links:
 # then specify the following parameter
 # 如果您想在左上角使用图片徽标而不是标题文字，
 # 然后指定以下参数
-title-img: "/img/cup.jpg"
+# title-img: "/img/cup.jpg"
 
 # --- Background colour/image options --- #
 
@@ -62,7 +62,7 @@ footer-link-col: "#404040"
 # 另外，可以将导航栏，页脚和页面背景设置为使用背景图像
 # 代替颜色
 
-navbar-img: "/img/bgimage.png"
+navbar-img: "/img/blue-snow.png"
 footer-img: "/img/blue-snow.png"
 page-img: "/img/blue-snow.png"
 
