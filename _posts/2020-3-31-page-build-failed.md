@@ -15,15 +15,18 @@ tags: [GitHub Pages]
 ---
 The page build failed for the `master` branch with the following error:
 
-You have an error on line 4 of your `_config.yml` file. For more information, see https://help.github.com/en/github/working-with-github-pages/troubleshooting-jekyll-build-errors-for-github-pages-sites#config-file-error.
+You have an error on line 4 of your `_config.yml` file. For more information, see
+https://help.github.com/en/github/working-with-github-pages/troubleshooting-jekyll-build-errors-for-github-pages-sites#config-file-error.
 
 For information on troubleshooting Jekyll see: https://help.github.com/articles/troubleshooting-jekyll-builds
 
-If you have any questions you can submit a request on the Contact GitHub page at https://support.github.com/contact/pages?repo_id=249618713&page_build_id=171362097
+If you have any questions you can submit a request on the Contact GitHub page at
+https://support.github.com/contact/pages?repo_id=249618713&page_build_id=171362097
 ---
 该master分支的页面构建失败，并出现以下错误：
 
-您的_config.yml文件的第4行出现错误。有关更多信息，请参见https://help.github.com/en/git hub / working-with-github-pages / 疑难解答-jekyll-build- errors-for-github-pages-sites＃config-file-error。
+您的_config.yml文件的第4行出现错误。有关更多信息，请参见https://help.github.com/en/git hub / working-with-github-pages /
+疑难解答-jekyll-build- errors-for-github-pages-sites＃config-file-error。
 
 有关对Jekyll进行故障排除的信息，请参阅：https : //help.github.com/articl es / troubleshooting-jekyll- builds
 
