@@ -12,7 +12,7 @@ tags: [GitHub Pages]
 
 邮件内容如下：
 
-***
+------
 The page build failed for the `master` branch with the following error:
 
 You have an error on line 4 of your `_config.yml` file. For more information, see
