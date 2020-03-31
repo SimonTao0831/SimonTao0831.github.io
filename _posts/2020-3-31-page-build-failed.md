@@ -10,16 +10,14 @@ tags: [GitHub Pages]
 
 今天登录谷歌邮箱看了一眼，发现Github给我发了n多邮件，原来之前的网页一直构建失败了，难怪背景没有更换。
 
----
-邮件内容如下：
 
+邮件内容如下：
+---
 The page build failed for the `master` branch with the following error:
 
 You have an error on line 4 of your `_config.yml` file. For more information, see https://help.github.com/en/github/working-with-github-pages/troubleshooting-jekyll-build-errors-for-github-pages-sites#config-file-error.
 
-For information on troubleshooting Jekyll see:
-
-  https://help.github.com/articles/troubleshooting-jekyll-builds
+For information on troubleshooting Jekyll see:https://help.github.com/articles/troubleshooting-jekyll-builds
 
 If you have any questions you can submit a request on the Contact GitHub page at https://support.github.com/contact/pages?repo_id=249618713&page_build_id=171362097
 ---
@@ -27,9 +25,7 @@ If you have any questions you can submit a request on the Contact GitHub page at
 
 您的_config.yml文件的第4行出现错误。有关更多信息，请参见https://help.github.com/en/git hub / working-with-github-pages / 疑难解答-jekyll-build- errors-for-github-pages-sites＃config-file-error。
 
-有关对Jekyll进行故障排除的信息，请参阅：
-
-  https : //help.github.com/articl es / troubleshooting-jekyll- builds
+有关对Jekyll进行故障排除的信息，请参阅：https : //help.github.com/articl es / troubleshooting-jekyll- builds
 
 如果您有任何疑问，可以在https://support.github.com的Contact GitHub页面上提交请求。/ con tact / pages？repo_id = 249618713＆page_build_id = 171362097
 ---
