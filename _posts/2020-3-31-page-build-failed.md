@@ -10,9 +10,9 @@ tags: [GitHub Pages]
 
 今天登录谷歌邮箱看了一眼，发现Github给我发了n多邮件，原来之前的网页一直构建失败了，难怪背景没有更换。
 
----
 邮件内容如下：
----
+
+
 The page build failed for the `master` branch with the following error:
 
 You have an error on line 4 of your `_config.yml` file. For more information, see
