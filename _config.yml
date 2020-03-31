@@ -3,7 +3,7 @@
 
 encoding: UTF-8
 # Name of website
-title: "SimonTao"
+title: "檄蒙的学习"
 
 # Short description of your site
 description: 一个萌新创建的简单网站
@@ -34,7 +34,7 @@ navbar-links:
 # Remove this parameter if you don't want an image in the navbar
 # 要显示在导航栏中的图像-图像必须为正方形（宽度=高度）
 # 如果您不希望在导航栏中显示图像，请删除此参数
-avatar: "/img/cup.jpg"
+#avatar: "/img/cup.jpg"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
