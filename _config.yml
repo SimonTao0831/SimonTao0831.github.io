@@ -1,5 +1,7 @@
 # --- General options --- #
 # 大体布局文件
+
+encoding: UTF-8
 # Name of website
 title: "SimonTao"
 
