@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 关于master分支的页面构建失败，_config.yml文件一直报错
-subtitle: 网页背景路径正确却无法显示
+subtitle: 网页背景路径正确却无法显示的问题
 tags: [GitHub Pages]
 ---
 
