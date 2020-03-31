@@ -62,9 +62,9 @@ footer-link-col: "#404040"
 # 另外，可以将导航栏，页脚和页面背景设置为使用背景图像
 # 代替颜色
 
- navbar-img: "/img/bgimage.png"
- footer-img: "/img/blue-snow.png"
- page-img: "/img/blue-snow.png"
+navbar-img: "/img/bgimage.png"
+footer-img: "/img/blue-snow.png"
+page-img: "/img/blue-snow.png"
 
 # --- Footer options --- #
 
