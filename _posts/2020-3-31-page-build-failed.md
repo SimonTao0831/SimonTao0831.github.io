@@ -17,7 +17,7 @@ The page build failed for the `master` branch with the following error:
 
 You have an error on line 4 of your `_config.yml` file. For more information, see https://help.github.com/en/github/working-with-github-pages/troubleshooting-jekyll-build-errors-for-github-pages-sites#config-file-error.
 
-For information on troubleshooting Jekyll see:https://help.github.com/articles/troubleshooting-jekyll-builds
+For information on troubleshooting Jekyll see: https://help.github.com/articles/troubleshooting-jekyll-builds
 
 If you have any questions you can submit a request on the Contact GitHub page at https://support.github.com/contact/pages?repo_id=249618713&page_build_id=171362097
 ---
@@ -33,7 +33,9 @@ If you have any questions you can submit a request on the Contact GitHub page at
 我是第四行开始进行变量赋值的，而它便从第四行开始报错，一开始我以为第四行有误，可无论如何发现不了错误，我尝试注释第四行，便从第六行也就是下一个变量赋值处开始报错，
 一时间我怀疑我整个文件都有错误。
 
-后来仔细看了看Github提供的方法，最后从[YAML linter](https://codebeautify.org/yaml-validator)中进行Validata后，出现了Error : Unable to parse.的错误，去代码里一看，正是原来我给背景变量(navbar-img)赋值的语句出错了。
+后来仔细看了看Github提供的方法，最后从[YAML linter](https://codebeautify.org/yaml-validator)中进行Validata(验证)后，
+出现了Error : Unable to parse.(错误：无法解析)的显示。
+去代码里一看，正是原来我给背景变量(navbar-img)赋值的语句出错了。
 
 一开始navbar-img是被注释掉的
 “#navbar-img”但我删除“#”后留了一个
