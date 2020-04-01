@@ -2,7 +2,7 @@
 layout: post
 title: 关于master分支的页面构建失败，_config.yml文件一直报错
 subtitle: 网页背景路径正确却无法显示的问题
-tags: [GitHub Pages]
+tags: [程序]
 ---
 
 经过简单的学习，我想尝试一下更换网页背景，本来只需要将三个变量赋予相应的路径，奈何却无论如何也不显示。
