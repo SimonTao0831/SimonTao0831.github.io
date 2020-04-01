@@ -43,7 +43,7 @@ https://support.github.com/contact/pages?repo_id=249618713&page_build_id=1713620
 去代码里一看，正是原来我给背景变量(`navbar-img`)赋值的语句出错了。
 
 一开始`navbar-img`是被注释掉的
-“#navbar-img”但我删除“#”后留了一个
+“# navbar-img”但我删除“#”后留了一个
 **空格**，导致了背景无法显示，config.yml文件处处报错
 
 简单的一个小错误，困扰我了许久，也是自身资历浅薄，这也是我第一次发表博客，以此纪念。
