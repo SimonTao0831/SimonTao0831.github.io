@@ -54,12 +54,12 @@ layout: base
 
       <ul class="pager blog-pager">
         {% if page.previous.url %}
-        <li class="上一个">
-          <a href="{{ page.previous.url | relative_url }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
+        <li class="previous">
+          <a href="{{ page.previous.url | relative_url }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; 上一篇</a>
         </li>
         {% endif %}
         {% if page.next.url %}
-        <li class="下一个">
+        <li class="next">
           <a href="{{ page.next.url | relative_url }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
         </li>
         {% endif %}
