@@ -7,6 +7,7 @@ var main = {
 
   init : function() {
     // Shorten the navbar after scrolling a little bit down
+    //向下滚动一点后缩短导航栏
     $(window).scroll(function() {
         if ($(".navbar").offset().top > 50) {
             $(".navbar").addClass("top-nav-short");
@@ -18,6 +19,7 @@ var main = {
     });
 
     // On mobile, hide the avatar when expanding the navbar menu
+    //在移动设备上，展开导航栏菜单时隐藏头像
     $('#main-navbar').on('show.bs.collapse', function () {
       $(".navbar").addClass("top-nav-expanded");
     });
@@ -26,6 +28,7 @@ var main = {
     });
 
     // On mobile, when clicking on a multi-level navbar menu, show the child links
+    //在移动设备上，单击多级导航栏菜单时，显示子链接
     $('#main-navbar').on("click", ".navlinks-parent", function(e) {
       var target = e.target;
       $.each($(".navlinks-parent"), function(key, value) {
@@ -38,6 +41,7 @@ var main = {
     });
 
     // Ensure nested navbar menus are not longer than the menu header
+    //确保嵌套的导航栏菜单不超过菜单标题
     var menus = $(".navlinks-container");
     if (menus.length > 0) {
       var navbar = $("#main-navbar ul");
@@ -65,11 +69,13 @@ var main = {
     }
 
     // show the big header image
+    //显示大标题图片
     main.initImgs();
   },
 
   initImgs : function() {
     // If the page was large images to randomly select from, choose an image
+    //如果页面是要随机选择的大图像，请选择一个图像
     if ($("#header-big-imgs").length > 0) {
       main.bigImgEl = $("#header-big-imgs");
       main.numImgs = main.bigImgEl.attr("data-num-img");
@@ -82,6 +88,7 @@ var main = {
   	  main.setImg(src, desc);
 
 	  // For better UX, prefetch the next image so that it will already be loaded when we want to show it
+    //为了获得更好的UX，请预取下一张图片，以便在我们要显示它时已经加载它
   	  var getNextImg = function() {
 	    var imgInfo = main.getImgInfo();
 	    var src = imgInfo.src;
@@ -90,6 +97,7 @@ var main = {
 		var prefetchImg = new Image();
   		prefetchImg.src = src;
 		// if I want to do something once the image is ready: `prefetchImg.onload = function(){}`
+    //如果图像准备好后我想做些事情：`prefetchImg.onload = function（）{}`
 
   		setTimeout(function(){
                   var img = $("<div></div>").addClass("big-img-transition").css("background-image", 'url(' + src + ')');
