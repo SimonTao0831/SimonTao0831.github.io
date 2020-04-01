@@ -17,7 +17,7 @@ layout: base
           {% if page.gh-badge.size > 0 %}
             {% for badge in page.gh-badge %}
               {% case badge %}
-                {% when 'star'%}
+                {% when '收藏'%}
                   <iframe src="https://ghbtns.com/github-btn.html?user={{ gh_user }}&repo={{ gh_repo }}&type=star&count=true" frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
                 {% when 'watch'%}
                   <iframe src="https://ghbtns.com/github-btn.html?user={{ gh_user }}&repo={{ gh_repo }}&type=watch&v=2&count=true" frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
@@ -37,7 +37,7 @@ layout: base
 
       {% if page.tags.size > 0 %}
         <div class="blog-tags">
-          标签:
+          Tags:
           {% if site.link-tags %}
           {% for tag in page.tags %}
             <a href="{{ '/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
