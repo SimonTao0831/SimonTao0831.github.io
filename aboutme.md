@@ -2,7 +2,6 @@
 layout: page
 title: 关于我
 subtitle: 机械狗，电子爱好者，编程爱好者
-bigimg: /img/path.jpg
 ---
 
 # 联系方式
