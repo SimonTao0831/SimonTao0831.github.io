@@ -47,7 +47,7 @@ navbar-links:
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 # 个性化您网站上的颜色。 颜色值可以是任何有效的CSS颜色
 
-navbar-col: "#888888"
+navbar-col: "#AAAAAA"
 navbar-text-col: "#666666"
 navbar-children-col: "#F5F5F5"
 page-col: "#FFFFFF"
