@@ -47,3 +47,5 @@ sudo vim /etc/pip.conf
 ```
 index-url=https://mirrors.aliyun.com/pypi/simple/
 ```
+## 下列软件包有未满足的依赖关系：xxxx 依赖: xxxx 但是它将不会被安装
+https://www.jianshu.com/p/946964725967
