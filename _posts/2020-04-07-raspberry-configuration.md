@@ -18,7 +18,7 @@ tags: [Raspberry]
 ```
 sudo nano /etc/apt/sources.list
 ```
-下面替换源的时候要注意自己树莓派的版本
+下面替换源的时候要注意自己树莓派的版本:
 
 Debian 10（buster）— 当前的稳定版（stable）
 
