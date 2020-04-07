@@ -39,3 +39,11 @@ sudo apt-get upgrade
 sudo apt-get remove vim-common
 sudo apt-get install vim
 ```
+更换一下pip的镜像源
+```
+sudo vim /etc/pip.conf
+```
+在文件里面添加一句
+```
+index-url=https://mirrors.aliyun.com/pypi/simple/
+```
