@@ -6,7 +6,7 @@ tags: [Raspberry]
 ---
 
 在我使用树莓派的这段时间里，遇到过了两次绿灯四闪问题，但我始终没有找到好的解决方法，网上有说是缺少start文件，但没有解决方法
-我唯一能做的办法就是重新烧录树莓派的系统，但是每次烧录费时费力，很多知识忘记，导致又要重新学习，所以特意记下
+我唯一能做的办法就是重新烧录树莓派的系统，但是每次烧录费时费力，很多知识忘记，导致又要重新学习，所以特意记下。
 
 ## 系统镜像
 系统镜像可以直接去[官网](https://www.raspberrypi.org/)下载，当然国内速度让人内心是很无奈的。
@@ -33,4 +33,9 @@ deb-src http://mirrors.tuna.tsinghua.edu.cn/raspberrypi/ stretch main ui
 ```
 sudo apt-get update
 sudo apt-get upgrade
+```
+删除默认的vi，再安装一下vim
+```
+sudo apt-get remove vim-common
+sudo apt-get install vim
 ```
