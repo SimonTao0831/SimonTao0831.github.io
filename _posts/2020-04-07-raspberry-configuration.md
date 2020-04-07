@@ -18,16 +18,23 @@ tags: [Raspberry]
 ```
 sudo nano /etc/apt/sources.list
 ```
+下面替换源的时候要注意自己树莓派的版本
+
+Debian 10（buster）— 当前的稳定版（stable）
+
+Debian 9（stretch）— 旧的稳定版（oldstable）
+
+Debian 8（jessie）— 更旧的稳定版（oldoldstable）
 ```
-deb http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ stretch main contrib non-free rpi
-deb-src http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ stretch main contrib non-free rpi
+deb http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ stretch main buster non-free rpi
+deb-src http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ stretch main buster non-free rpi
 ```
 ```
 sudo nano /etc/apt/sources.list.d/raspi.list
 ```
 ```
-deb http://mirrors.tuna.tsinghua.edu.cn/raspberrypi/ stretch main ui
-deb-src http://mirrors.tuna.tsinghua.edu.cn/raspberrypi/ stretch main ui
+deb http://mirrors.tuna.tsinghua.edu.cn/raspberrypi/ buster main ui
+deb-src http://mirrors.tuna.tsinghua.edu.cn/raspberrypi/ buster main ui
 ```
 然后更新一下
 ```
