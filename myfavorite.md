@@ -19,3 +19,5 @@ subtitle: 将我喜好的各个网站链接放于此地
 - [Jinaconvert](https://jinaconvert.com/cn/)图片转换网站
 - [Subtle Patterns](https://www.toptal.com/designers/subtlepatterns/)网页背景素材网站
 - [Google Analytics](https://analytics.google.com/analytics/web/)
+- [Matlab](https://ww2.mathworks.cn/?s_tid=gn_logo)
+- [淘宝](https://www.taobao.com/)
