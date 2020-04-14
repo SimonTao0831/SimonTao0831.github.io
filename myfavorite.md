@@ -22,3 +22,4 @@ subtitle: 将我喜好的各个网站链接放于此地
 - [Matlab](https://ww2.mathworks.cn/?s_tid=gn_logo)
 - [淘宝](https://www.taobao.com/)
 - [春天模型](http://www.ctwz.webportal.cc/)(国内舵机厂商)
+- [CNKI学术翻译](http://dict.cnki.net/)
