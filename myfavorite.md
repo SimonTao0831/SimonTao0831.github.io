@@ -29,6 +29,6 @@ subtitle: 将我喜好的各个网站链接放于此地
 - [复变函数作业卷答案](https://wenku.baidu.com/view/4111d16cc77da26924c5b0af.html)
 
 ### Codesys
-- [Codesysy](http://www.codesys.cn/)
+- [Codesys](http://www.codesys.cn/)
 - [视频](https://www.daodaotv.com/play/c806)
 - [论坛](http://bbs.hicodesys.com/forum-141-1.html)
