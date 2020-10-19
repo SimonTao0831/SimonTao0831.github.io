@@ -6,7 +6,6 @@ subtitle: 机械狗，电子爱好者，编程爱好者
 
 # 联系方式
 
-- 手机: 13855598469
 - Email: ximengtaox@gmail.com
 - QQ: 3306543459
 - 微信号: tao20000831
