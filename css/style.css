@@ -30,6 +30,17 @@ header h1 {
     margin: 0; /* 去掉默认的 margin */
 }
 
+header h1 a {
+    cursor: pointer; /* 鼠标变为手形 */
+    transition: color 0.3s ease; /* 添加颜色渐变效果 */
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+header h1 a:hover {
+    color: #EF7C00; /* 鼠标悬停时改变颜色 */
+}
+
 header nav a {
     font-size: 1.3rem;
     margin: 0 15px; /* 给导航链接添加水平间距 */
@@ -167,6 +178,7 @@ footer .social-links {
 footer .social-links a {
     margin: 0 10px; /* Space between each social link */
     text-decoration: none; /* Remove underline from links */
+    transition: color 0.3s ease;
     color: #f4f4f4; /* Link text color */
 }
 
@@ -194,8 +206,13 @@ footer p {
         text-align: center;
     }
 
-    header h1 {
+    header nav a {
         font-size: 1.2rem;
+        margin: 0 10px;
+    }
+
+    header h1 {
+        font-size: 1.6rem;
         margin-bottom: 10px;
     }
 
@@ -220,7 +237,7 @@ footer p {
     }
 
     header h1 {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     header nav a {
