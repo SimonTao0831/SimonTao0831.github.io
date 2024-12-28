@@ -1,0 +1,60 @@
+/* Publications List */
+.publication-content {
+    text-align: left;
+}
+
+.publication-content h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.publication-list {
+    list-style-type: decimal;
+    margin: 2rem auto;
+    padding: 0;
+    max-width: 800px;
+}
+
+.publication {
+    background-color: white;
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.publication p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.publication em {
+    font-style: italic;
+}
+
+.publication-links {
+    margin-top: 1rem;
+}
+
+.publication-links a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    color: #500000;
+}
+
+.publication-links a:hover {
+    color: #a50000;
+}
+
+.publication-links i {
+    margin-right: 5px;
+}
+
+/* Style for the authors list */
+.authors {
+    display: block; /* Forces authors to be on a new line */
+    font-size: 0.9em; /* Adjust font size for smaller text */
+    font-style: italic; /* Optional: Italicize the author names */
+    margin-bottom: 0.5rem; /* Adds space between authors and the publication title */
+}

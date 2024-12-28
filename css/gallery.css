@@ -1,0 +1,127 @@
+/* Gallery styles */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;       /* Allow items to wrap to the next line */
+    gap: 1rem;            /* Space between items */
+    justify-content: center; /* Center the content */
+    padding: 1rem;
+}
+
+.gallery h1{
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* Title for each row */
+.row-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+    width: 100%; /* Ensure the title takes up full width */
+}
+
+.gallery-item {
+    flex: 1 1 calc(33.333% - 1rem);  /* Each item takes 1/3 of the width */
+    box-sizing: border-box;
+    padding: 0rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    height: 300px;  /* Fixed height for the item */
+}
+
+.gallery-img {
+    width: 100%;
+    height: 100%;        /* Ensure image fills the height of the container */
+    object-fit: contain;   /* Crop image to fill the container */
+    /* border-radius: 8px;  Optional: Add rounded corners */
+}
+
+/* Modal (Popup) for larger image */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Enable scrolling if the image is large */
+    background-color: rgba(0, 0, 0, 0.9); /* Black with opacity */
+}
+
+/* Modal background */
+#imageModal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed position to cover the whole screen */
+    z-index: 999; /* Ensure it sits on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+/* Modal image content */
+.modal-content {
+    position: relative;
+    max-width: 80%; /* Ensures image doesn't overflow */
+    max-height: 80%; /* Ensure the image fits within the screen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Image inside modal */
+#modalImage {
+    max-width: 80%;  /* Prevent the image from overflowing */
+    max-height: 80%; /* Ensure the image doesn't stretch or overflow */
+    width: auto;      /* Maintain aspect ratio */
+    height: auto;     /* Maintain aspect ratio */
+}
+/* Caption under the image */
+#caption {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #f1f1f1;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#caption {
+    color: #ccc;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+}

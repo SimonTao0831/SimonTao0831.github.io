@@ -1,0 +1,112 @@
+/* Project sections */
+.project-content {
+    text-align: left;
+}
+
+.project-content h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.project {
+    display: flex;
+    flex-direction: row; /* Arrange items in a row (horizontal layout) */
+    align-items: center;
+    justify-content: space-between; /* Make space between image and text */
+    margin-bottom: 3rem;
+    padding: 1.5rem;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%;  /* Fill the entire available width */
+    max-width: 900px; /* Limit the maximum width to 900px */
+    margin-left: auto; /* Center the container horizontally */
+    margin-right: auto; /* Center the container horizontally */
+}
+
+/* Project details */
+.project-details {
+    width: 80%; /* Set the text section to occupy 80% of the container */
+}
+
+.project-details h2 {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    color: #333;
+    text-align: center
+}
+
+.project-details p {
+    font-size: 1rem;
+    color: #666;
+    text-align: left;
+}
+
+/* Project links */
+.project-links {
+    margin-top: 1rem;
+}
+
+.project-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #500000;
+}
+
+.project-links a:hover {
+    color: #a50000; /* Change color on hover */
+}
+
+/* Container for image and arrows */
+.image-container {
+    position: relative; /* Ensures arrows are positioned relative to the container */
+    width: 100%;       /* Ensure container spans full width */
+    max-width: 600px;  /* Optional: limit container width */
+    height: 100%;
+    max-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;  /* Ensure content stays within bounds */
+    margin-right: 1rem;
+}
+
+/* Style for the image */
+.project-img {
+    width: 60%; /* Set the width of the image to 40% of the container */
+    max-width: 400px; /* Limit the maximum width */
+    border-radius: 8px;
+    margin-right: 0rem; /* Add space between the image and text */
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.5s ease;  /* Smooth transition for image change */
+}
+
+/* Arrows positioning and styling */
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;   /* Make the arrow size consistent */
+    color: black;      /* Adjust color as needed */
+    background-color: rgba(255, 255, 255, 0.7); /* Optional: arrow background */
+    padding: 0.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1;        /* Ensure arrows appear above the image */
+}
+
+.left-arrow {
+    left: 10px; /* Position the left arrow */
+}
+
+.right-arrow {
+    right: 10px; /* Position the right arrow */
+}
+
+
+/* Arrow hover effect */
+.arrow:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
