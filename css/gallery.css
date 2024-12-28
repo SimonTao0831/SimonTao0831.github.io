@@ -5,7 +5,7 @@
     gap: 1rem;            /* Space between items */
     justify-content: center; /* Center the content */
     padding: 1rem;
-    margin: 0 auto; /* 自动调整左右间距 */
+    margin: 0 auto;
     max-width: 1200px;
 }
 
