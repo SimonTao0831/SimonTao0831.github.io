@@ -198,6 +198,10 @@
         padding: 1rem; /* Reduce padding */
     }
 
+    .project-content h2 {
+        font-size: 1.5rem; /* Adjust heading size */
+    }
+
     .project-details {
         width: 100%; /* Use full width for text section */
         text-align: center; /* Center align text */
@@ -228,6 +232,10 @@
     .project {
         padding: 0.8rem; /* Reduce padding further */
         margin-bottom: 2rem; /* Adjust bottom margin */
+    }
+
+    .project-content h2 {
+        font-size: 1.2rem; /* Adjust heading size */
     }
 
     .project-details h2 {
