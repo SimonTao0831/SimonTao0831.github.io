@@ -197,7 +197,8 @@ footer p {
 @media (max-width: 768px) {
     header {
         flex-direction: column; /* 让导航垂直排列 */
-        align-items: flex-start;
+        align-items: center; /* 将所有内容居中显示 */
+        justify-content: center; /* 居中内容 */
     }
 
     header nav {
