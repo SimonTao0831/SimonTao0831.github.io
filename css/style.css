@@ -62,14 +62,13 @@ section {
     justify-content: center; /* 水平居中 */
     align-items: center; /* 垂直居中 */
     width: 100%;
-    height: 25vh; /* 确保高度为视口高度 */
+    height: 300px;
     background: url(../img/background.jpg) no-repeat center center;
     background-size: cover;
 }
 
 .profile-pic {
-    width: 250px; /* 设置图片宽度 */
-    height: 250px; /* 设置图片高度 */
+    height: 80%; /* 设置图片宽度 */
     border-radius: 50%; /* 圆形头像 */
     object-fit: cover; /* 保持图片比例裁剪 */
 }
@@ -179,4 +178,65 @@ footer p {
     margin: 0; /* Remove margin around the footer text */
     font-size: 0.9em; /* Slightly smaller text size */
     color: #666; /* Footer text color */
+}
+
+/* --------------------------------------------- */
+/* 媒体查询 (适配手机) */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; /* 让导航垂直排列 */
+        align-items: flex-start;
+    }
+
+    header nav {
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+
+    .banner {
+        height: 200px; /* 调整高度适配小屏幕 */
+    }
+
+    .about-details {
+        flex-direction: column; /* 垂直排列 */
+        gap: 1rem;
+    }
+
+    .interests, .education {
+        flex: none; /* 取消平分宽度，改为自动调整 */
+    }
+}
+
+/* 手机端优化 */
+@media (max-width: 480px) {
+    body {
+        padding: 0 1rem;
+    }
+
+    header h1 {
+        font-size: 1rem;
+    }
+
+    header nav a {
+        font-size: 0.9rem;
+        margin: 0 5px;
+    }
+
+    .about-content h2 {
+        font-size: 1.2rem;
+    }
+
+    .about-content p {
+        font-size: 0.9rem;
+    }
+
+    .banner {
+        height: 100px; /* 更小的高度适配手机 */
+    }
 }

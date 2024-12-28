@@ -58,3 +58,57 @@
     font-style: italic; /* Optional: Italicize the author names */
     margin-bottom: 0.5rem; /* Adds space between authors and the publication title */
 }
+
+/* --------------------------------------------- */
+/* Responsive Styles for Mobile */
+/* Media query for screens with max-width of 768px */
+@media (max-width: 768px) {
+    .publication-content h2 {
+        font-size: 1.5rem; /* Reduce the heading size for smaller screens */
+    }
+
+    .publication {
+        padding: 1rem; /* Reduce padding to fit smaller screens */
+    }
+
+    .publication-list {
+        max-width: 100%; /* Use the full width on mobile */
+        margin: 1rem auto; /* Adjust margin for smaller screens */
+    }
+
+    .publication p {
+        font-size: 1rem; /* Adjust font size for better readability */
+    }
+
+    .publication-links a {
+        font-size: 1rem; /* Reduce font size for links */
+        margin: 0 5px; /* Reduce spacing between links */
+    }
+
+    .authors {
+        font-size: 0.8em; /* Reduce font size for author names */
+    }
+}
+
+/* Media query for screens with max-width of 480px */
+@media (max-width: 480px) {
+    .publication-content h2 {
+        font-size: 1.2rem; /* Further reduce heading size */
+    }
+
+    .publication {
+        padding: 0.8rem; /* Adjust padding for smaller devices */
+    }
+
+    .publication p {
+        font-size: 0.9rem; /* Smaller font size for paragraphs */
+    }
+
+    .publication-links a {
+        font-size: 0.9rem; /* Smaller font size for links */
+    }
+
+    .authors {
+        font-size: 0.7em; /* Smaller font size for author names */
+    }
+}

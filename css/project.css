@@ -81,6 +81,7 @@
     height: auto;
     border-radius: 8px;
     transition: transform 0.5s ease;  /* Smooth transition for image change */
+    cursor: pointer;
 }
 
 /* Arrows positioning and styling */
@@ -108,5 +109,145 @@
 
 /* Arrow hover effect */
 .arrow:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Modal (Popup) for larger image */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Enable scrolling if the image is large */
+    background-color: rgba(0, 0, 0, 0.9); /* Black with opacity */
+}
+
+/* Modal background */
+#imageModal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed position to cover the whole screen */
+    z-index: 999; /* Ensure it sits on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+/* Modal image content */
+.modal-content {
+    position: relative;
+    max-width: 80%; /* Ensures image doesn't overflow */
+    max-height: 80%; /* Ensure the image fits within the screen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Image inside modal */
+#modalImage {
+    max-width: 80%;  /* Prevent the image from overflowing */
+    max-height: 80%; /* Ensure the image doesn't stretch or overflow */
+    width: auto;      /* Maintain aspect ratio */
+    height: auto;     /* Maintain aspect ratio */
+}
+/* Caption under the image */
+#caption {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #f1f1f1;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#caption {
+    color: #ccc;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* --------------------------------------------- */
+/* Responsive Styles for Mobile */
+
+/* Media query for screens with max-width of 768px (tablets) */
+@media (max-width: 768px) {
+    .project {
+        flex-direction: column; /* Stack image and text vertically */
+        align-items: center;
+        padding: 1rem; /* Reduce padding */
+    }
+
+    .project-details {
+        width: 100%; /* Use full width for text section */
+        text-align: center; /* Center align text */
+    }
+
+    .project-details h2 {
+        font-size: 1rem; /* Adjust heading size */
+    }
+
+    .project-details p {
+        font-size: 0.9rem; /* Adjust paragraph size */
+    }
+
+    .project-img {
+        width: 80%; /* Adjust image width for smaller screens */
+        max-width: 300px; /* Further limit image size */
+        margin: 1rem 0; /* Add margin around the image */
+    }
+
+    .image-container {
+        max-width: 100%; /* Allow image container to take full width */
+        margin-right: 0; /* Remove right margin */
+    }
+}
+
+/* Media query for screens with max-width of 480px (smartphones) */
+@media (max-width: 480px) {
+    .project {
+        padding: 0.8rem; /* Reduce padding further */
+        margin-bottom: 2rem; /* Adjust bottom margin */
+    }
+
+    .project-details h2 {
+        font-size: 0.9rem; /* Further reduce heading size */
+    }
+
+    .project-details p {
+        font-size: 0.8rem; /* Further reduce paragraph size */
+    }
+
+    .project-links a {
+        font-size: 0.9rem; /* Adjust link font size */
+    }
+
+    .project-img {
+        width: 90%; /* Allow image to occupy most of the screen width */
+        max-width: 250px; /* Limit image size further */
+    }
+
+    .arrow {
+        font-size: 1.5rem; /* Reduce arrow size for smaller screens */
+    }
 }

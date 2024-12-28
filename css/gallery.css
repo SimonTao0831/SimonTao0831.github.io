@@ -38,6 +38,7 @@
     height: 100%;        /* Ensure image fills the height of the container */
     object-fit: contain;   /* Crop image to fill the container */
     /* border-radius: 8px;  Optional: Add rounded corners */
+    cursor: pointer;
 }
 
 /* Modal (Popup) for larger image */
@@ -115,15 +116,63 @@
     font-size: 20px;
 }
 
+/* --------------------------------------------- */
 /* Responsive Design */
+
+/* Tablets and small screens */
 @media (max-width: 768px) {
-    .gallery {
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    .gallery-item {
+        flex: 1 1 calc(50% - 1rem); /* Two items per row */
+        height: 250px; /* Reduce item height */
+    }
+
+    .gallery h1 {
+        font-size: 1.8rem; /* Adjust title size */
+    }
+
+    .row-title {
+        font-size: 1.2rem; /* Adjust row title size */
+    }
+
+    .gallery-img {
+        object-fit: cover; /* Adjust image fit for smaller screens */
     }
 }
 
+/* Smartphones and smaller screens */
 @media (max-width: 480px) {
-    h1 {
-        font-size: 1.5rem;
+    .gallery-item {
+        flex: 1 1 100%; /* Single item per row */
+        height: 200px; /* Further reduce item height */
+    }
+
+    .gallery h1 {
+        font-size: 1.5rem; /* Adjust title size */
+    }
+
+    .row-title {
+        font-size: 1rem; /* Adjust row title size */
+    }
+
+    .gallery-img {
+        object-fit: cover; /* Adjust image fit */
+    }
+
+    .modal-content {
+        max-width: 90%; /* Adjust modal width for small screens */
+        max-height: 90%; /* Adjust modal height */
+    }
+
+    #modalImage {
+        max-width: 90%; /* Ensure image fits screen */
+        max-height: 90%; /* Ensure image fits screen */
+    }
+
+    .close {
+        font-size: 30px; /* Adjust close button size */
+    }
+
+    #caption {
+        font-size: 16px; /* Adjust caption font size */
     }
 }
