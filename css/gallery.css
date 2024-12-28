@@ -5,8 +5,8 @@
     gap: 1rem;            /* Space between items */
     justify-content: center; /* Center the content */
     padding: 1rem;
-    margin-left: 40rem;
-    margin-right: 40rem;
+    margin: 0 auto; /* 自动调整左右间距 */
+    max-width: 1200px;
 }
 
 .gallery h1{
