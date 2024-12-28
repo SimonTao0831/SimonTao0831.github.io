@@ -217,7 +217,7 @@ footer p {
     }
 
     .banner {
-        height: 200px; /* 调整高度适配小屏幕 */
+        height: 200px;
     }
 
     .about-details {
@@ -254,6 +254,6 @@ footer p {
     }
 
     .banner {
-        height: 100px; /* 更小的高度适配手机 */
+        height: 200px;
     }
 }
