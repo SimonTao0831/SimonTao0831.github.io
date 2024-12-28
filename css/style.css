@@ -31,6 +31,7 @@ header h1 {
 }
 
 header nav a {
+    font-size: 1.3rem;
     margin: 0 15px; /* 给导航链接添加水平间距 */
     text-decoration: none;
     color: #f4f4f4;
