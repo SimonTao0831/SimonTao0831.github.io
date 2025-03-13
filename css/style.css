@@ -112,7 +112,11 @@ h1 {
 
 /* --------------------------------------------- */
 .interests, .education {
-    flex: 1; /* 使两部分均分可用宽度 */
+    flex: 1; /* Both take equal space by default */
+}
+
+.education {
+    flex: 2; /* Give education section more space */
 }
 
 .interests h3, .education h3 {
