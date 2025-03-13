@@ -80,7 +80,7 @@ section {
 }
 
 .profile-pic {
-    height: 65%; /* Set the avatar size */
+    height: 80%; /* Set the avatar size */
     border-radius: 50%; /* Make the avatar circular */
     object-fit: cover; /* Ensure the image maintains aspect ratio and fills the space */
 }
